@@ -7,7 +7,7 @@
 <div class="table-responsive">
 <table class="table">
     <thead>
-        <tr>
+        <tr> 
             <th class="col-1">No</th>
             <th>Title</th>
             <th>Technology</th>
