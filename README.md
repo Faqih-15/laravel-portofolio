@@ -63,7 +63,7 @@ Clone project dari repo yang kalian punya
 
 ```
 git clone https://github.com/{username-github}/laravel-portfolio.git
-cd laravel-portfolio-project
+cd laravel-portfolio
 ```
 
 Jalan terminal dengan perintah:
