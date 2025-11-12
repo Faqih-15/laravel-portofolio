@@ -68,34 +68,59 @@ Anda dapat melihat versi live dari proyek ini di sini:
 
 ## 🚀 Cara Instalasi & Menjalankan (Lokal)
 
-1.  Clone repositori ini:
-    bash
-    git clone [https://github.com/](https://github.com/)[USERNAME_MU]/[NAMA_REPO_MU].git
-    
-2.  Masuk ke direktori proyek:
-    bash
-    cd [NAMA_REPO_MU]
-    
-3.  Install dependensi composer:
-    bash
-    composer install
-    
-4.  Salin file .env.example menjadi .env:
-    bash
-    cp .env.example .env
-    
-5.  Buat app key baru:
-    bash
-    php artisan key:generate
-    
-6.  Buka file .env dan atur koneksi database kamu (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-7.  Atur juga kredensial Google Socialite kamu (GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET) di .env.
-8.  Jalankan migrasi database:
-    bash
-    php artisan migrate
-    
-9.  Jalankan server lokal:
-    bash
-    php artisan serve
-    
-10. Buka http://127.0.0.1:8000 di browser-mu.
+Silahkan **fork** dulu project ini di **REPOSITORY yang kalian punya** 
+Clone project dari repo yang kalian punya
+
+```
+git clone https://github.com/{username github teman-teman}/laravel-portfolio-project.git
+cd laravel-portfolio-project
+```
+
+Jalan terminal dengan perintah:
+
+```
+composer install && composer update
+```
+
+Lanjut copy file <code>.env.example</code> dengan nama <code>.env</code>. Kemudian edit beberapa di file berikut ini:
+
+Terkait database:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=xxx
+DB_USERNAME=xxx
+DB_PASSWORD=xxx
+```
+
+Tambahkan script di bagian bawah file <code>.env</code>,
+
+```
+GOOGLE_CLIENT_ID="xxx"
+GOOGLE_CLIENT_SECRET="xxx"
+GOOGLE_CALLBACK="http://127.0.0.1:8000/auth/callback"
+```
+
+Petunjuk untuk mendapatkan Google Client Id, Google Client Secret dan pengaturan Google Callback, [buka link ini](https://console.cloud.google.com/apis/credentials)
+
+Lanjut lakukan proses migrate melalui terminal
+
+```
+php artisan migrate
+```
+
+Lanjut, generate key
+
+```
+php artisan key:generate
+```
+
+Jalankan project dengan perintah
+
+```
+php artisan serve
+```
+
+Silakan dibuka di <code>http://127.0.0.1:8000</code>
