@@ -2,7 +2,7 @@
 
 Ini adalah proyek portofolio pribadi full-stack yang dibangun menggunakan framework Laravel. Proyek ini menampilkan halaman portofolio publik (depan) dan dashboard admin (backend) yang dilindungi untuk mengelola seluruh konten website.
 
-![Screenshot Halaman Depan](LINK_SCREENSHOT_DEPAN_KAMU)
+![Screenshot Halaman Depan](https://drive.google.com/file/d/15r4dADQ2EobC1uAFCxSFe-Xc4fqFvEKI/view?usp=sharing)
 
 ---
 
@@ -58,7 +58,7 @@ Anda dapat melihat versi live dari proyek ini di sini:
 
 | Halaman Depan (Grid) | Modal Detail Project |
 | :---: | :---: |
-| ![Screenshot Grid Project](LINK_KE_SCREENSHOT_GRID) | ![Screenshot Modal](LINK_KE_SCREENSHOT_MODAL) |
+| ![Screenshot Grid Project](LINK_KE_SCREENSHOT_GRID) | ![Screenshot Modal](https://drive.google.com/file/d/1nczC3D919FpCan22a0m2bRkIfsjkN1Qz/view?usp=sharing) |
 
 | Dashboard: Edit Project (Fitur Utama) | Dashboard: Index Project |
 | :---: | :---: |
