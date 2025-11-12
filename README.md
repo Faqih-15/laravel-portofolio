@@ -1,6 +1,6 @@
 # Portofolio Pribadi & Dashboard Admin (Berbasis Laravel)
 
-Ini adalah proyek portofolio pribadi full-stack yang dibangun menggunakan framework Laravel. Proyek ini menampilkan halaman portofolio publik (depan) dan dashboard admin (backend) yang dilindungi untuk mengelola seluruh konten website.
+Ini adalah proyek portofolio pribadi yang dibangun menggunakan framework Laravel. Proyek ini menampilkan halaman portofolio publik (depan) dan dashboard admin (backend) yang dilindungi untuk mengelola seluruh konten website.
 
 ![Screenshot Halaman Depan](https://drive.google.com/file/d/1nczC3D919FpCan22a0m2bRkIfsjkN1Qz/view?usp=sharing)
 
@@ -36,21 +36,14 @@ Ini adalah proyek portofolio pribadi full-stack yang dibangun menggunakan framew
 
 ## 💻 Teknologi yang Digunakan
 
-* *Backend:* PHP (v8.x), Laravel (v10/v11)
-* *Frontend:* Bootstrap 4 (Admin), Bootstrap 5 (Depan), JavaScript (ES6+), CSS3
+* *Backend:* PHP (v8.3), Laravel (v10)
+* *Frontend:* Bootstrap 4 (Admin), Bootstrap 5 (Depan), JavaScript.
 * *Database:* MySQL
 * *Library:*
     * Laravel Socialite (Google Login)
     * Dropzone.js (Drag & Drop Upload)
     * Summernote (Rich Text Editor)
     * Material Design Icons (MDI)
-
----
-
-## Demo Live
-
-Anda dapat melihat versi live dari proyek ini di sini:
-*[LINK_DEMO_LIVE_HOSTING_KAMU]*
 
 ---
 
@@ -66,13 +59,24 @@ Anda dapat melihat versi live dari proyek ini di sini:
 
 ---
 
+## Development
+
+### Kebutuhan
+
+Beberapa hal yang perlu dipersiapkan untuk menjalankan project ini di server lokal:
+
+-   PHP
+-   MySQL
+-   Composer
+
+
 ## 🚀 Cara Instalasi & Menjalankan (Lokal)
 
 Silahkan **fork** dulu project ini di **REPOSITORY yang kalian punya** 
 Clone project dari repo yang kalian punya
 
 ```
-git clone https://github.com/{username github teman-teman}/laravel-portfolio-project.git
+git clone https://github.com/{username-github}/laravel-portfolio.git
 cd laravel-portfolio-project
 ```
 
