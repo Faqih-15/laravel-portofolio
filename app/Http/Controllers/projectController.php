@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Project;
-use App\Models\ProjectImage; // Tambahkan ini jika perlu menghapus gambar lama
+use App\Models\ProjectImage;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\File; // Untuk menghapus file fisik
+use Illuminate\Support\Facades\File;
 
 class ProjectController extends Controller
 {
@@ -40,10 +40,7 @@ class ProjectController extends Controller
         // 2. Simpan gambar dari nama file yang dikirim
         if ($request->has('gambar')) {
             foreach ($request->input('gambar') as $filename) {
-                // Cek jika filenya benar ada (untuk keamanan)
-                // if (File::exists(public_path('foto_project/' . $filename))) {
-                //     $project->images()->create(['gambar' => $filename]);
-                // }
+
                 if (File::exists(public_path('temp_uploads/' . $filename))) {
 
                 // PINDAHKAN FILE dari temp ke folder asli
@@ -83,9 +80,7 @@ class ProjectController extends Controller
         // Tambahkan gambar baru (jika ada)
         if ($request->has('gambar')) {
             foreach ($request->input('gambar') as $filename) {
-                // if (File::exists(public_path('foto_project/' . $filename))) {
-                //     $project->images()->create(['gambar' => $filename]);
-                // }
+                
                 if (File::exists(public_path('temp_uploads/' . $filename))) {
 
                 // PINDAHKAN FILE dari temp ke folder asli
@@ -150,8 +145,6 @@ class ProjectController extends Controller
         $filename = time() . '_' . uniqid() . '.' . $file->getClientOriginalExtension();
 
         // Pindahkan file ke folder public
-        // $file->move(public_path('foto_project'), $filename);
-        // UBAH INI: 'foto_project' -> 'temp_uploads'
         $file->move(public_path('temp_uploads'), $filename);
 
         // Kirim nama file kembali ke Dropzone
@@ -164,8 +157,7 @@ class ProjectController extends Controller
         $filename = $request->input('filename');
 
         if ($filename) {
-            // $path = public_path('foto_project/' . $filename);
-            // UBAH INI: 'foto_project' -> 'temp_uploads'
+ 
             $path = public_path('temp_uploads/' . $filename);
             if (File::exists($path)) {
                 File::delete($path);
