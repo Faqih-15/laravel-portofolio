@@ -2,7 +2,7 @@
 
 @section('content')
 <p class="card-title">Projects</p>
-<a href="{{ route('project.create') }}" class="btn btn-primary mb-3">+ Add New Project</a>
+<a href="{{ route('project.create') }}" class="btn btn-primary mb-3">+ Add New Project</a> 
 
 <div class="table-responsive">
 <table class="table">
