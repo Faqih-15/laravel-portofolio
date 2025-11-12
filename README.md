@@ -2,8 +2,6 @@
 
 Ini adalah proyek portofolio pribadi yang dibangun menggunakan framework Laravel. Proyek ini menampilkan halaman portofolio publik (depan) dan dashboard admin (backend) yang dilindungi untuk mengelola seluruh konten website.
 
-![Screenshot Halaman Depan](https://private-user-images.githubusercontent.com/179941878/513182231-0af542fb-3bd5-4f05-8eb8-7017a1e1acb7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjI5MzYzMzgsIm5iZiI6MTc2MjkzNjAzOCwicGF0aCI6Ii8xNzk5NDE4NzgvNTEzMTgyMjMxLTBhZjU0MmZiLTNiZDUtNGYwNS04ZWI4LTcwMTdhMWUxYWNiNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTExMlQwODI3MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YjIwZjhkYjhhMTgwMGFmZjg1MzJlZDkxN2IwNjhmMGM2MjlhMjg0NDQ2OWFlOGE5OGY0MGQxMmVhMmJiYjg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.a7govbrI46agDhlwdjR1goIaMq1fs9U_vjsy-AkPhSE)
-
 ---
 
 ## ✨ Fitur Utama
@@ -44,18 +42,6 @@ Ini adalah proyek portofolio pribadi yang dibangun menggunakan framework Laravel
     * Dropzone.js (Drag & Drop Upload)
     * Summernote (Rich Text Editor)
     * Material Design Icons (MDI)
-
----
-
-## 🖼 Galeri Screenshot
-
-| Halaman Depan (Grid) | Modal Detail Project |
-| :---: | :---: |
-| ![Screenshot Grid Project](LINK_KE_SCREENSHOT_GRID) | ![Screenshot Modal](LINK_KE_SCREENSHOT_MODAL) |
-
-| Dashboard: Edit Project (Fitur Utama) | Dashboard: Index Project |
-| :---: | :---: |
-| ![Screenshot Dashboard Edit](LINK_KE_SCREENSHOT_EDIT) | ![Screenshot Dashboard Index](LINK_KE_SCREENSHOT_INDEX) |
 
 ---
 
