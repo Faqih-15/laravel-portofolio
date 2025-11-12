@@ -9,7 +9,7 @@
 @endif --}}
 
 <div class="table-responsive">
-<table class="table">        {{--  "table table-bordered" = menampilkan garis vertikal --}}
+<table class="table">
     <thead>
         <tr>
             <th class="col-1">No</th>
