@@ -2,7 +2,7 @@
 
 Ini adalah proyek portofolio pribadi full-stack yang dibangun menggunakan framework Laravel. Proyek ini menampilkan halaman portofolio publik (depan) dan dashboard admin (backend) yang dilindungi untuk mengelola seluruh konten website.
 
-![Screenshot Halaman Depan](LINK_SCREENSHOT_DEPAN_KAMU)
+![Screenshot Halaman Depan](https://drive.google.com/file/d/1nczC3D919FpCan22a0m2bRkIfsjkN1Qz/view?usp=sharing)
 
 ---
 
