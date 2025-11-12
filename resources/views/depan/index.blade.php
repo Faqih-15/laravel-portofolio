@@ -257,7 +257,6 @@
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         @foreach (explode(', ', get_meta_value('_language')) as $item)
-                        {{-- <li class="list-inline-item"><i class="devicon-{{ strtolower($item) }}-plain"></i></li> --}}
                         <li class="list-inline-item" title="{{ ucfirst($item) }}"><i class="devicon-{{ strtolower($item) }}-plain"></i></li>     {{--title="{{ ucfirst($item) }}" ketika logo skill disentuh/hover maka keluar nama2nya--}}
                         @endforeach
                     </ul>
